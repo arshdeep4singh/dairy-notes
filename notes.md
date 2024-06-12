@@ -27,8 +27,10 @@ echo $PATH: its check after :
      ls -l give more info  
      ls -la  join both cmd  
      ls -R show all files in sub directories  
+     
 **cd**: change the directories  
      cd /, cd~, cd absolute path   
+     
 **mkdir**: making the directories  
      mkdir -p: make nested directories  
      
@@ -57,6 +59,7 @@ echo $PATH: its check after :
 
 **df**: give us disk space usage   
      use -m  -g  -h for mb gb human readable  
+     
 **du**: disk usage files in cur dir  
 	use -h -m  
 
@@ -108,11 +111,9 @@ echo $PATH: its check after :
 
 **uptime**: show how long system has been running   
 
+**history**: show cmd history
+	  history | grep "cmd-name" // history of cmd
 
-**history**: show cmd history   
-	  history | grep "cmd-name" // history of cmd   
-history**: show cmd history    
-	  history | grep "cmd-name" // history of cmd   
  
 **alias**: can change name of cmd    
      eg : alias ls="ls -la"    
