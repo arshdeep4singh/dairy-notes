@@ -110,5 +110,47 @@ echo $PATH: its check after :
 
 
 **history**: show cmd history   
-	  history | grep "cmd-name" // history of cmd  
+	  history | grep "cmd-name" // history of cmd   
+history**: show cmd history    
+	  history | grep "cmd-name" // history of cmd   
+ 
+**alias**: can change name of cmd    
+     eg : alias ls="ls -la"    
+    open ~/.zshrc to make change for all session    
+
+###  Terminal cmd        
+
+ctrl A    // move to front    
+ctrl E    // move to end    
+ctrl U    // remove  line    
+ctrl K    // remove after cursor    
+tab       // auto complete    
+!cmd_number // number u get from history    
+!cmd_name // run previous cmd_name    
+ctrl R    // search prev cmd    
+cmd K  // clear     
+;            // use multiple cmd : ls ; ls -l ;ls -a    
+
+
+
+**jobs** : show the shell processes    
+**ping** : ping an ip address    
+**nslookup**: give name and address     
+ 
+
+**wget** : download files from internet // use brew install wget cd    
+	   wget link    
+
+**top**: show cpu usage    
+      **kill** process_id // stop the process   
+  
+**sort**: sort file    
+	 sort -r   // reverse sort   
+	 sort -n // numerically sort   
+	 sort -f // not case sensitive   
+
+**zip**: zips the file    
+	 zip a abc.txt xyz.txt   
+
+**unzip**: unzip the file    
 
