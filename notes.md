@@ -158,4 +158,19 @@ cmd K  // clear
 # DAY 3
 
 
+Day 3 tasks:    
+1. Write a typescript based next.js app.   
+2. Write a vite based vue.js app in typescript.   
+3. Write an express.js app in Node.js in typescript.    
+
+     >>   a. There should be an api route that should be served: localhost {port}/api/config to set and get config which will be a json blob.    
+     >>   b. You should be able to make GET and PUT requests to it.    
+     >>   c. On GET you should get a json blob.   
+     >>   d. On PUT you should be able to set a json as config.    
+     >>   e. Bonus points: Shut down the server. Restart it. The GET should get the last set data again.
+
+
+      
+
+
 
